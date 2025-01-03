@@ -72,6 +72,8 @@ a{
   background-color: rgba(0, 0, 0, 0.050);
 }
 
+
+
 h1{
   font-size: 2vw;
   margin: 2rem 2rem;
@@ -92,9 +94,9 @@ h1{
 
 .bot{
   position: absolute;
-  margin-top: 70vh;
+  margin-top: 10vh;
   height: 30vh;
-  background-color: rgba(0, 0, 0, 0.050);
+  background-color: rgba(112, 15, 15, 0.05);
 }
 
 
@@ -113,12 +115,31 @@ input{
   background-color: #E5E7EB;
 }
 
+#con-password:invalid, #password:invalid{
+  border-color: red;
+}
+
+
 .input-group{
   margin-top: 1rem;
 }
 
 :focus{
   background-color: rgb(255, 255, 255);
+}
+.create-group{
+  margin: 2rem 2rem;
+}
+.create-group a{
+  color: rgb(140, 116, 44);
+}
+
+button{
+  width: 20vw;
+  height: 5vh;
+  border: none;
+  border-radius: .5rem;
+  background-color: rgb(140, 116, 44);
 }
 
 
