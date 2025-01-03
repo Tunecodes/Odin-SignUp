@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "cafe";
+  src: url(./1942_report/1942.ttf) format("TrueType");
+}
+body{
+  display: flex;
+  background-color: gray;
+}
+
+.leftCon{
+  position: relative;
+  height: 100vh;
+  width: 40vw;
+  background-image: url(kari-shea-2c80smWge9Y-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.logo{
+  position:absolute;
+  margin-top: 25vh;
+  height: 8rem;
+  width: 40vw;
+  background: rgba(255, 213, 107, 0.129);
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  height: 8rem;
+}
+
+span{
+  font-family: "cafe", Arial, sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+
+.cred{
+  position: absolute;
+  align-items: center;
+justify-content: center;
+margin-left: 10vw; 
+  margin-top: 95vh;
+  color: white;
+}
+
+a{
+  color: white;
+}
+
+.rightCon{
+  position: relative;
+  height: 100vh;
+  width: 60vw;
+  background-color: white;
+  overflow: hidden;
+}
+
+.top, .mid, .bot{
+  width: 60vw;
+
+}
+
+.top{
+  position: absolute;
+  height: 30vh;
+  background-color: rgba(0, 0, 0, 0.050);
+}
+
+h1{
+  font-size: 2vw;
+  margin: 2rem 2rem;
+  font-style: italic;
+  color: rgb(140, 116, 44);
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.mid{
+  position: absolute;
+  margin-top: 30vh;
+  height: 40vh;
+  background-color: rgba(255, 255, 255, 0.051);
+  box-shadow: 0px 3px 3px 3px rgb(188, 188, 188);
+  font-style: italic;
+}
+
+.bot{
+  position: absolute;
+  margin-top: 70vh;
+  height: 30vh;
+  background-color: rgba(0, 0, 0, 0.050);
+}
+
+
+.input-group{
+  display: flex;
+}
+
+.labels, .inputs, h2{
+margin-left: 5vw;
+}
+input{
+  width: 20vw;
+  height: 3vh;
+  border-radius: .4rem;
+  border: .1rem solid grey;
+  background-color: #E5E7EB;
+}
+
+.input-group{
+  margin-top: 1rem;
+}
+
+:focus{
+  background-color: rgb(255, 255, 255);
+}
+
+
